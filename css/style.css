@@ -1007,11 +1007,12 @@ button.modal-btn {
 
 @media only screen and (max-width: 390px) {
   .contact-display {
-    margin-top: 0px;
+    margin: 70px 0px;
+    left: 20px;
   }
 
   .display-back {
-    top: -530px;
+    top: -650px;
   }
 }
 
