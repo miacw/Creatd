@@ -1028,7 +1028,7 @@ button.modal-btn {
   .display-back {
     width: 80%;
     margin: 0 25px;
-    top: -480px;
+/*     top: -480px; */
     left: 13px;
   }
 
