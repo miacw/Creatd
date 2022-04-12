@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo&family=Montserrat:wght@300&family=Oswald:wght@300;400&family=Poppins:wght@300&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="fade-in-delayed">
+      <div class="nav-container">
+        <a href="index.html"><h1 class="logo">CreatdByMi</h1></a>
+        <ul class="nav flex">
+          <li>
+            <a class="about" id="about-link" href="index.html#about-div-link"
+              >About</a
+            >
+          </li>
+
+          <li>
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <a href="#" class="burger-icon">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+    <div class="header-container fade-in">
+      <h1 class="header">Portfolio</h1>
+    </div>
+    <div class="thumbnail-container flex">
+      <div class="thumbnail-row flex fade-in">
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="../img/inspiration-8.jpg" />
+          <div class="modal-slide flex">
+            <a href="#"><button class="modal-btn">DETAILS</button></a>
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="../img/anklet-blue.jpg" />
+          <div class="modal-slide flex">
+            <a href="#"><button class="modal-btn">DETAILS</button></a>
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="../img/inspiration-7.jpg" />
+          <div class="modal-slide flex">
+            <a href="#"><button class="modal-btn">DETAILS</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="project-name center-text fade-in-delayed">
+        <h1>WAISTD</h1>
+      </div>
+      <div class="thumbnail-row flex fade-in-delayed">
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="../img/aura-green.png" />
+          <div class="modal-slide flex">
+            <a href="#"><button class="modal-btn">DETAILS</button></a>
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="../img/quartz-bracelet.jpg" />
+          <div class="modal-slide flex">
+            <a href="#"><button class="modal-btn">DETAILS</button></a>
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="../img/inspiration-6.jpg" />
+          <div class="modal-slide flex">
+            <a href="#"><button class="modal-btn">DETAILS</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="center-text">
+        <h1>HOOPD</h1>
+      </div>
+      <div class="thumbnail-row flex">
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="../img/inspiration-4.jpg" />
+          <div class="modal-slide flex">
+            <a href="#"><button class="modal-btn">DETAILS</button></a>
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="../img/inspiration-5.jpg" />
+          <div class="modal-slide flex">
+            <a href="#"><button class="modal-btn">DETAILS</button></a>
+          </div>
+        </div>
+        <div class="thumbnail">
+          <img class="thumbnail-img" src="../img/inspiration-3.jpg" />
+          <div class="modal-slide flex">
+            <a href="#"><button class="modal-btn">DETAILS</button></a>
+          </div>
+        </div>
+      </div>
+      <div class="center-text" id="last">
+        <h1>PEARLD</h1>
+      </div>
+    </div>
+    <div class="main-modal hidden">
+      <div class="modal-img-container flex">
+        <img class="modal-img" src="../img/inspiration.jpg" />
+      </div>
+    </div>
+
+    <script src="js/burger-menu.js"></script>
+    <script src="js/modal.js"></script>
+    <footer class="flex">
+      <div class="footer-text">
+        <h3 class="footer-header">Creatdbymi</h3>
+        <h5 class="footer-header">Prototype for small business</h5>
+        <a href="https://www.instagram.com/thatcutecoder/?hl=en">
+          <img
+            class="social-icon"
+            id="instagram"
+            src="../img/icons/instagram_icon.png"
+          />
+        </a>
+        <a href="#">
+          <img
+            class="social-icon"
+            id="twitter"
+            src="../img/icons/twitter_icon.png"
+          />
+        </a>
+        <a href="https://uk.linkedin.com/in/mia-wallace-97a67b152">
+          <img
+            class="social-icon"
+            id="linkedin"
+            src="../img/icons/linkedin_icon.png"
+          />
+        </a>
+      </div>
+      <div class="signup-div flex">
+        <h2>Sign up to my mailing list!</h2>
+        <div class="background-colour">
+          <form>
+            <input type="email" />
+            <input type="submit" value="sign up" />
+          </form>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

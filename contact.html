@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo&family=Montserrat:wght@300&family=Oswald:wght@300;400&family=Poppins:wght@300&family=Roboto:wght@100&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <nav class="fade-in-delayed">
+      <div class="nav-container">
+       <a href="index.html"><h1 class="logo">CreatdByMi</h1></a>
+        <ul class="nav flex">
+          <li>
+            <a class="about" id="about-link" href="index.html#about-div-link">About</a>
+          </li>
+
+          <li>
+            <a href="portfolio.html">Portfolio</a>
+          </li>
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+        <a href="#" class="burger-icon">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </nav>
+    <div class="contact-display flex fade-in">
+      <h1 class="subheader" id="contact">Contact Me</h1>
+      <div class="form-container ">
+        <form class="contact-form flex" name="contactForm" method="POST" action="php/form.php" >
+          <input
+            type="text"
+            name="name"
+            id="form-name"
+            class="form-field"
+            placeholder="name*"
+            required
+          />
+          <span id="name-message" class="hidden">This field is required</span>
+          <input
+            type="email"
+            name="email"
+            id="form-email"
+            class="form-field"
+            placeholder="email address*"
+            required
+          />
+          <span id="name-message" class="hidden">This field is required</span>
+          
+          <label for="text-box">what would you like to say?</label>
+          <input type="textarea" name="message" id="contact-box" />
+          <input type="submit" value="Submit"></input>
+        </form>
+      </div>
+    </div>
+    <div class="display-back flex fade-in">
+        <div class="display-container flex ">
+            <h2 class="subheader display-header" >Connect with me!</h2>
+            <div class="socials-container ">
+               <a href="https://www.instagram.com/thatcutecoder/?hl=en"><img class="social-icon-static"src="../img/icons/instagram_icon.png"></a>
+                <img class="social-icon-static"src="../img/icons/twitter_icon.png">
+                <img class="social-icon-static"src="../img/icons/linkedin_icon.png">
+            </div>
+            <div id="contact-p">
+                <p>Let’s work together! This is a mock  website for my jewellery making hobby. I would love to collaborate on frontend projects with you. </p>
+            </div>
+            <div class="flex">
+                <img class="social-icon-static icon-small"  src="../img/icons/map-marker-black.png">
+                <h3 id="location">London, UK</h3>
+            </div>
+            <div id="form-p"style="
+            margin: 18px;
+            text-align: inherit; 
+            font-size: 12px;
+            color: #E5E5E5;"
+        ><p>Fill out the form below to get in contact with me.</p></div>
+        </div>
+        
+    </div>
+    <footer class="flex">
+      <div class="footer-text">
+        <h3 class="footer-header">Creatdbymi</h3>
+        <h5 class="footer-header">Prototype for small business</h5>
+        <a href="https://www.instagram.com/thatcutecoder/?hl=en">
+          <img
+            class="social-icon"
+            id="instagram"
+            src="../img/icons/instagram_icon.png"
+          />
+        </a>
+        <a href="#">
+          <img
+            class="social-icon"
+            id="twitter"
+            src="../img/icons/twitter_icon.png"
+          />
+        </a>
+        <a href="https://uk.linkedin.com/in/mia-wallace-97a67b152">
+          <img
+            class="social-icon"
+            id="linkedin"
+            src="../img/icons/linkedin_icon.png"
+          />
+        </a>
+      </div>
+      <div class="signup-div flex">
+        <h2>Sign up to my mailing list!</h2>
+        <div class="background-colour">
+          <form>
+            <input type="email" />
+            <input type="submit" value="sign up" />
+          </form>
+        </div>
+      </div>
+    </footer>
+    <script src="js/burger-menu.js"></script>
+    <script src="js/form-validation.js"></script>
+   
+
+  </body>
+</html>
