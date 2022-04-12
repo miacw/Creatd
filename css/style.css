@@ -1011,9 +1011,7 @@ button.modal-btn {
     left: 20px;
   }
 
-  .display-back {
-    top: -620px;
-  }
+  
 }
 
 @media only screen and (max-height: 850px) {
